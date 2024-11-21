@@ -1,0 +1,291 @@
+﻿# create change
+# scope to valyria holder
+# iterate through de jure duchies in realm
+# scope to the duchy title
+# iterate through de jure counties
+# if they don't have a liege, set the de jure liege to prev.holder
+# resolve
+too_lazy_to_change_the_generated_counties_liege_in_the_files_effect = {
+	create_title_and_vassal_change = {
+		type = swear_fealty
+		save_scope_as = change
+	}
+	title:e_valyria.holder = {
+		every_realm_de_jure_duchy = {
+			limit = { is_title_created = yes }
+			every_de_jure_county_holder = {
+				limit = { holder = { is_independent_ruler = yes } }
+				change_liege = {
+					liege = prev.holder
+					change = scope:change
+				}
+			}
+		}
+	}
+	resolve_title_and_vassal_change = scope:change
+}
+
+vf_game_start_dragonpit_effect = {
+	title:c_daelynor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_zhaeryth = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_faelith = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_zhaelthor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_ilythar = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_jaeryn = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_aerionor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_elythorion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_brynysor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_vaenor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_oelrynor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_jaelys = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_paelion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_haelyx = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_daenyth = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_daelthor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_qaelyx = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_aelzor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_maenythor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_saelrion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_raelythor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_xaelrynor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_gaelzor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_ilyrion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_oelyth = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_yrnith = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_valyria = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_haelthor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_jaelion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_vaeryth = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_naelrion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_ulenor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_gaelion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_naelthor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_oelyrion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_qaelrion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_saelion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_elythar = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_zaelthor = {
+		add_to_list = dragonpit_titles
+	}
+	every_in_list = {
+		list = dragonpit_titles
+		agot_dragonpit_gamestart_init_pit_effect = yes
+		this.holder ?= {
+			vf_generate_dragonstone_head_dragonkeeper = { HOLDER = this }
+			appoint_court_position = {
+				recipient = scope:head_dragonkeeper
+				court_position = head_dragonkeeper_court_position
+			}
+		}
+	}
+}
+
+vf_eat_mybung_hole = {
+	province:9376 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9384 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9399 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9412 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9426 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9441 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9448 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9460 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9472 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9476 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9500 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9511 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9514 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9525 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9530 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9549 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9553 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	##### VALYRIA CITY #####
+	province:9567 = {
+		add_special_building = vf_valyria_city_civic 
+	}
+	province:9568 = {
+		add_special_building = vf_valyria_city_industrial 
+	}
+	province:9569 = {
+		add_special_building = vf_valyria_city_sept 
+	}
+	province:9570 = {
+		add_special_building = vf_valyria_city_entertainment 
+	}
+	province:9571 = {
+		add_special_building = vf_valyria_city_defenses 
+	}
+	##### VALYRIA CITY #####
+	province:9582 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9590 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9610 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9633 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9641 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9645 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9652 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9674 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9689 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9697 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9710 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9719 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9723 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9732 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9770 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9786 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9802 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9807 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9824 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9838 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:9850 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+}
