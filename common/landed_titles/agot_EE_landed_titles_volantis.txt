@@ -73,22 +73,9 @@ e_volantis = {
 				b_embrysis = { province = 8391 color = { 73 45 65 } } 
 			}
 			c_zalmyzkes = { color = { 47 47 78 } 
-				b_zalmyzkes = { province = 8392 color = { 47 47 78 } } 
-				b_embamves = { province = 8393 color = { 53 51 75 } } 
-				b_tolmiryo = { province = 8394 color = { 58 55 70 } } 
-				b_naqa_egros = { province = 8395 color = { 63 58 67 } } 
 				b_eltyryen = { province = 8396 color = { 67 53 71 } } 
 				b_edruremio = { province = 8397 color = { 70 50 76 } } 
 				b_azantyria = { province = 8398 color = { 73 47 81 } } 
-				b_maegarys = { province = 8399 color = { 74 56 84 } } 
-			}
-			c_vasyugys = {
-				color = { 78 74 113 } 
-				b_vasyugys = { province = 8400 color = { 78 74 113 } } 
-				b_vhassos = { province = 8401 color = { 81 79 115 } } 
-				b_malqaerys = { province = 8402 color = { 76 83 108 } } 
-				b_jelmonegalry = { province = 8403 color = { 81 86 104 } } 
-				b_grevenkar = { province = 8404 color = { 84 82 98 } } 
 			}
 		}
 		d_selhorys = {
