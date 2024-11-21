@@ -1,0 +1,10 @@
+﻿compatch_goat_1 = {
+	name = Holdeez
+	dynasty = dynn_Nuts
+
+	religion = valyria
+	culture = high_valyrian
+
+	7859.1.1 = { birth = yes }
+	7892.1.1 = { death = yes }
+}
