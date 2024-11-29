@@ -156,7 +156,134 @@ vf_game_start_dragonpit_effect = {
 	}
 }
 
-vf_eat_mybung_hole = {
+vf_add_special_buildings_7888 = {
+	####### THE MINES ########
+	# 1
+	province:9618 = {
+		add_special_building = vf_copper_mines_04
+	}
+	province:9628 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9629 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9637 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9639 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9640 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9642 = {
+		add_special_building = vf_copper_mines_04
+	}
+	province:9649 = {
+		add_special_building = vf_copper_mines_04
+	}
+	province:9650 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9651 = {
+		add_special_building = vf_silver_mines_04
+	}
+	# 2
+	province:9611 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9605 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9603 = {
+		add_special_building = vf_copper_mines_04
+	}
+	province:9602 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9606 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9607 = {
+		add_special_building = vf_copper_mines_04
+	}
+	province:9647 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9644 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9560 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9557 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9679 = {
+		add_special_building = vf_copper_mines_04
+	}
+	province:9684 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9686 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9690 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9731 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9728 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9725 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9724 = {
+		add_special_building = vf_copper_mines_04
+	}
+	province:9736 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9556 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9687 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9515 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9516 = {
+		add_special_building = vf_copper_mines_04
+	}
+	province:9517 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9519 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9521 = {
+		add_special_building = vf_copper_mines_04
+	}
+	province:9523 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9527 = {
+		add_special_building = vf_copper_mines_04
+	}
+	province:9528 = {
+		add_special_building = vf_gold_mines_04
+	}
+	province:9529 = {
+		add_special_building = vf_silver_mines_04
+	}
+	province:9496 = {
+		add_special_building = vf_copper_mines_04
+	}
+	###########################
 	province:9376 = {
 		add_special_building = vf_dragon_tower_01 
 	}
@@ -202,6 +329,9 @@ vf_eat_mybung_hole = {
 	province:9530 = {
 		add_special_building = vf_dragon_tower_01 
 	}
+	province:9546 = {
+		add_special_building = vf_copper_mines_04
+	}
 	province:9549 = {
 		add_special_building = vf_dragon_tower_01 
 	}
@@ -224,7 +354,7 @@ vf_eat_mybung_hole = {
 	province:9571 = {
 		add_special_building = vf_valyria_city_defenses 
 	}
-	##### VALYRIA CITY #####
+	##### 
 	province:9582 = {
 		add_special_building = vf_dragon_tower_01 
 	}
