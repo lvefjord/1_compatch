@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="combat"
 	render_pass=Map
 	clamp_to_water_level=yes
@@ -54847,7 +54847,7 @@ game_object_locator={
 		}
 		{
 			id=9596
-			position={ 3950.000000 0.000000 1167.000000 }
+			position={ 3953.208008 0.000000 1162.582642 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -54865,7 +54865,7 @@ game_object_locator={
 		}
 		{
 			id=9599
-			position={ 3912.000000 0.000000 1232.000000 }
+			position={ 3916.595703 0.000000 1242.376709 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
