@@ -5,20 +5,92 @@
 # iterate through de jure counties
 # if they don't have a liege, set the de jure liege to prev.holder
 # resolve
-too_lazy_to_change_the_generated_counties_liege_in_the_files_effect = {
+vf_vassalize_all_of_essos = {
 	create_title_and_vassal_change = {
 		type = swear_fealty
 		save_scope_as = change
 	}
-	title:e_valyria.holder = {
-		every_realm_de_jure_duchy = {
-			limit = { is_title_created = yes }
-			every_de_jure_county_holder = {
-				limit = { holder = { is_independent_ruler = yes } }
-				change_liege = {
-					liege = prev.holder
-					change = scope:change
-				}
+	title:e_old_valyria = {
+		every_de_jure_top_liege = {
+			limit = { 
+				is_independent_ruler = yes	
+				is_title_created = yes 
+			}
+			change_liege = {
+				liege = title:e_valyria.holder
+				change = scope:change
+			}
+		}
+	}
+	title:e_ghiscar = {
+		every_de_jure_top_liege = {
+			limit = { 
+				is_independent_ruler = yes	
+				is_title_created = yes 
+			}
+			change_liege = {
+				liege = title:e_valyria.holder
+				change = scope:change
+			}
+		}
+	}
+	title:e_volantis = {
+		every_de_jure_top_liege = {
+			limit = { 
+				is_independent_ruler = yes	
+				is_title_created = yes 
+			}
+			change_liege = {
+				liege = title:e_valyria.holder
+				change = scope:change
+			}
+		}
+	}
+	title:e_rhoyne = {
+		every_de_jure_top_liege = {
+			limit = { 
+				is_independent_ruler = yes	
+				is_title_created = yes 
+			}
+			change_liege = {
+				liege = title:e_valyria.holder
+				change = scope:change
+			}
+		}
+	}
+	title:e_three_daughters = {
+		every_de_jure_top_liege = {
+			limit = { 
+				is_independent_ruler = yes	
+				is_title_created = yes 
+			}
+			change_liege = {
+				liege = title:e_valyria.holder
+				change = scope:change
+			}
+		}
+	}
+	title:e_pentos = {
+		every_de_jure_top_liege = {
+			limit = { 
+				is_independent_ruler = yes	
+				is_title_created = yes 
+			}
+			change_liege = {
+				liege = title:e_valyria.holder
+				change = scope:change
+			}
+		}
+	}
+	title:e_braavos = {
+		every_de_jure_top_liege = {
+			limit = { 
+				is_independent_ruler = yes	
+				is_title_created = yes 
+			}
+			change_liege = {
+				liege = title:e_valyria.holder
+				change = scope:change
 			}
 		}
 	}

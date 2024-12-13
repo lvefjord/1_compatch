@@ -1,0 +1,14 @@
+﻿on_game_start = {
+	on_actions = {
+		vf_ee_compatch_game_start
+	}
+}
+
+vf_ee_compatch_game_start = {
+	effect = {
+		if = {
+			limit = { has_game_rule = vf_ee_essos_vassals }
+			vf_vassalize_all_of_essos = yes
+		}
+	}
+}

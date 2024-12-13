@@ -1,0 +1,13 @@
+﻿vf_ee_compatch_vassalization = {
+	categories = { historicity }
+
+	default = default_vf_ee_vassals
+
+	default_vf_ee_vassals = {
+
+	}
+
+	vf_ee_essos_vassals = {
+		
+	}
+}

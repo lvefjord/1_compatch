@@ -1,0 +1,8 @@
+﻿l_english:
+ rule_vf_ee_compatch_vassalization:0 "#P BTD|EE:#! Valyrian Freehold Vassalization"
+ 
+ setting_default_vf_ee_vassals:0 "#N None #!"
+ setting_default_vf_ee_vassals_desc:0 "The Valyrian Freehold will have no extra vassals throughout Essos."
+
+ setting_vf_ee_essos_vassals:0 "#P All #!"
+ setting_vf_ee_essos_vassals_desc:0 "All of existing Essos will be vassals of the Valyrian Freehold. (This is basically what the wiki says.)"
