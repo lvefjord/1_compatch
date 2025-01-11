@@ -1,88 +1,25 @@
 # Ruins
-c_ghoyan_drohe = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_golhuru = { 
-	7300.1.1 = { holder = Ruin_Empress }
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_sar_moyhan = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_ar_noy = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_sar_erilidyes = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_glohulu = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_chroyane = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_nor_salis = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_rhoyne_vale = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_ar_muhoy = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_gloomy_gate = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_ny_sar = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_sar_drea = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_ar_geryas = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_nyssa = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_sar_rhoy = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_kolaut = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_garinoy = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_northfields = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_ar_selrys = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_sobyrha = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
+c_ghoyan_drohe = { 7300.1.1 = { holder = Ruin_Empress } }
+c_golhuru = { 7300.1.1 = { holder = Ruin_Empress } }
+c_sar_moyhan = { 7300.1.1 = { holder = Ruin_Empress } }
+c_ar_noy = { 7300.1.1 = { holder = Ruin_Empress } }
+c_sar_erilidyes = { 7300.1.1 = { holder = Ruin_Empress } }
+c_glohulu = { 7300.1.1 = { holder = Ruin_Empress } }
+c_chroyane = { 7300.1.1 = { holder = Ruin_Empress } }
+c_nor_salis = { 7300.1.1 = { holder = Ruin_Empress } }
+c_rhoyne_vale = { 7300.1.1 = { holder = Ruin_Empress } }
+c_ar_muhoy = { 7300.1.1 = { holder = Ruin_Empress } }
+c_gloomy_gate = { 7300.1.1 = { holder = Ruin_Empress } }
+c_ny_sar = { 7300.1.1 = { holder = Ruin_Empress } }
+c_sar_drea = { 7300.1.1 = { holder = Ruin_Empress } }
+c_ar_geryas = { 7300.1.1 = { holder = Ruin_Empress } }
+c_nyssa = { 7300.1.1 = { holder = Ruin_Empress } }
+c_sar_rhoy = { 7300.1.1 = { holder = Ruin_Empress } }
+c_kolaut = { 7300.1.1 = { holder = Ruin_Empress } }
+c_garinoy = { 7300.1.1 = { holder = Ruin_Empress } }
+c_northfields = { 7300.1.1 = { holder = Ruin_Empress } }
+c_ar_selrys = { 7300.1.1 = { holder = Ruin_Empress } }
+c_sobyrha = { 7300.1.1 = { holder = Ruin_Empress } }
 
 # Under Norvos
 c_ny_rhon_valley = { 7300.1.1 = { holder = 0 } }

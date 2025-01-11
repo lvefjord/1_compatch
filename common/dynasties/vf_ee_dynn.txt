@@ -1,0 +1,8 @@
+﻿dynn_Nuts = {
+	name = "dynn_Nuts"
+	culture = "high_valyrian"
+}
+dynn_Balls = {
+	name = "dynn_Balls"
+	culture = "high_valyrian"
+}

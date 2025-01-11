@@ -2,9 +2,36 @@
 	name = Holdeez
 	dynasty = dynn_Nuts
 
-	religion = valyria
+	religion = valyrian
 	culture = high_valyrian
 
 	7859.1.1 = { birth = yes }
+	7884.1.1 = { add_spouse = compatch_goat_wife }
 	7892.1.1 = { death = yes }
+}
+
+compatch_goat_wife = {
+	name = Ligma
+	dynasty = dynn_Balls
+	female = yes
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7859.1.1 = { birth = yes }
+	7884.1.1 = { add_spouse = compatch_goat_1 }
+	7892.1.1 = { death = yes }
+}
+
+compatch_goat_2 = {
+	name = Sugma
+	dynasty = dynn_Nuts
+	father = compatch_goat_1
+	mother = compatch_goat_wife
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7879.12.1 = { birth = yes }
+	7945.1.1 = { death = yes }
 }

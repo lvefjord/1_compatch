@@ -4,11 +4,24 @@
 	}
 }
 
+on_game_start_after_lobby = {
+	on_actions = {
+		vf_ee_unruinize_this_doesnt_work_without_after_lobby_or_something_lmao_question_mark
+	}
+}
+
 vf_ee_compatch_game_start = {
 	effect = {
 		if = {
 			limit = { has_game_rule = vf_ee_essos_vassals }
 			vf_vassalize_all_of_essos = yes
 		}
+		vf_ee_compatch_unruinize = yes
+	}
+}
+
+vf_ee_unruinize_this_doesnt_work_without_after_lobby_or_something_lmao_question_mark = {
+	effect = {
+		vf_ee_compatch_unruinize = yes
 	}
 }

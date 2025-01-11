@@ -1,29 +1,7 @@
 # Ruins
-c_draconys = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_valenys = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-c_vysarion = { 
-	7300.1.1 = { holder = Ruin_Empress } 
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-
-d_bhorash = {
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-
-c_bhorash = {
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-
-c_vezenkarys = {
-	7886.1.1 = { holder = compatch_goat_1 }
-}
-
+c_draconys = { 7300.1.1 = { holder = Ruin_Empress } }
+c_valenys = { 7300.1.1 = { holder = Ruin_Empress } }
+c_vysarion = { 7300.1.1 = { holder = Ruin_Empress } }
 c_howling_bogs = { 7300.1.1 = { holder = Ruin_Empress } }
 c_volandrys = { 7300.1.1 = { holder = Ruin_Empress } }
 c_anogaria = { 7300.1.1 = { holder = Ruin_Empress } }
@@ -38,9 +16,7 @@ d_mantarys = {
 		effect = {
 			holder ?= {
 				if = {
-					limit = {
-						NOT = { has_realm_law = slavery_allowed_law }
-					}
+					limit = { NOT = { has_realm_law = slavery_allowed_law } }
 					add_realm_law = slavery_allowed_law
 				}
 			}
@@ -48,9 +24,7 @@ d_mantarys = {
 				set_variable = historical_slavery
 				holder ?= {
 					if = {
-						limit = {
-							NOT = { has_realm_law = slavery_allowed_law }
-						}
+						limit = { NOT = { has_realm_law = slavery_allowed_law } }
 						add_realm_law = slavery_allowed_law
 					}
 				}
@@ -78,6 +52,34 @@ d_mantarys = {
 	8285.1.1 = { holder = 140570136 } 
 }
 c_mantarys = { 
+	7849.1.1 = {
+		holder = 344570136
+		effect = {
+			add_county_modifier = slave_pop_4
+		}
+	} 
+	7879.1.1 = { holder = 343570136 } 
+	7900.1.1 = { holder = 342570136 } 
+	7919.1.1 = { holder = 341570136 } 
+	7945.1.1 = { holder = 340570136 } 
+	7954.1.1 = { holder = 100570136 } 
+	8012.1.1 = { holder = 102570136 } 
+	8038.1.1 = { holder = 103570136 } 
+	8040.1.1 = { holder = 108570136 } 
+	8059.1.1 = { holder = 110570136 } 
+	8090.1.1 = { holder = 115570136 } 
+	8096.1.1 = { holder = 117570136 } 
+	8120.1.1 = { holder = 118570136 } 
+	8158.1.1 = { holder = 119570136 } 
+	8162.1.1 = { holder = 121570136 } 
+	8190.1.1 = { holder = 122570136 } 
+	8214.1.1 = { holder = 128570136 } 
+	8256.1.1 = { holder = 130570136 } 
+	8278.1.1 = { holder = 136570136 } 
+	8285.1.1 = { holder = 140570136 } 
+}
+# Painted Valleys
+d_painted_valleys = {
 	7849.1.1 = { holder = 344570136 } 
 	7879.1.1 = { holder = 343570136 } 
 	7900.1.1 = { holder = 342570136 } 
@@ -99,10 +101,9 @@ c_mantarys = {
 	8278.1.1 = { holder = 136570136 } 
 	8285.1.1 = { holder = 140570136 } 
 }
-
 c_painted_valleys = { 7858.1.1 = { liege = d_mantarys holder = 0 } }
-
-c_elyndras = { 7858.1.1 = { liege = 0 holder = 0 } }
+c_elyndras = { 7858.1.1 = { liege = d_mantarys holder = 0 } }
+c_treylys = { 7858.1.1 = { liege = d_mantarys holder = 0} }
 
 c_demon_pass = {
 	7858.1.1 = { liege = d_mantarys holder = 345570124 } 
@@ -174,9 +175,7 @@ d_tolos = {
 		effect = {
 			holder ?= {
 				if = {
-					limit = {
-						NOT = { has_realm_law = slavery_allowed_law }
-					}
+					limit = { NOT = { has_realm_law = slavery_allowed_law } }
 					add_realm_law = slavery_allowed_law
 				}
 			}
@@ -184,9 +183,7 @@ d_tolos = {
 				set_variable = historical_slavery
 				holder ?= {
 					if = {
-						limit = {
-							NOT = { has_realm_law = slavery_allowed_law }
-						}
+						limit = { NOT = { has_realm_law = slavery_allowed_law } }
 						add_realm_law = slavery_allowed_law
 					}
 				}
@@ -209,6 +206,34 @@ d_tolos = {
 	8270.1.1 = { holder = 131570101 } 
 	8295.1.1 = { holder = 132570101 } 
 }
+
+c_tolos = {
+	7866.1.1 = {
+		holder = 343570101
+		effect = {
+			add_county_modifier = slave_pop_4
+		}
+	} 
+	7886.1.1 = { holder = 342570101 } 
+	7909.1.1 = { holder = 341570101 } 
+	7925.1.1 = { holder = 340570101 } 
+	7949.1.1 = { holder = 100570101 } 
+	7982.1.1 = { holder = 102570101 } 
+	8004.1.1 = { holder = 104570101 } 
+	8022.1.1 = { holder = 111570101 } 
+	8090.1.1 = { holder = 112570101 } 
+	8123.1.1 = { holder = 116570101 } 
+	8144.1.1 = { holder = 119570101 } 
+	8190.1.1 = { holder = 121570101 } 
+	8245.1.1 = { holder = 125570101 } 
+	8253.1.1 = { holder = 128570101 } 
+	8270.1.1 = { holder = 131570101 } 
+	8295.1.1 = { holder = 132570101 } 
+}
+
+effect = {
+			add_county_modifier = slave_pop_4
+		}
 
 c_black_cliffs = {
 	7859.1.1 = { liege = d_tolos holder = 345570117 } 
@@ -237,11 +262,10 @@ c_elyria = {
 	7869.1.1 = {
 		holder = 345570110
 		effect = {
+			add_county_modifier = slave_pop_4
 			holder ?= {
 				if = {
-					limit = {
-						NOT = { has_realm_law = slavery_allowed_law }
-					}
+					limit = { NOT = { has_realm_law = slavery_allowed_law } }
 					add_realm_law = slavery_allowed_law
 				}
 			}
@@ -249,9 +273,7 @@ c_elyria = {
 				set_variable = historical_slavery
 				holder ?= {
 					if = {
-						limit = {
-							NOT = { has_realm_law = slavery_allowed_law }
-						}
+						limit = { NOT = { has_realm_law = slavery_allowed_law } }
 						add_realm_law = slavery_allowed_law
 					}
 				}

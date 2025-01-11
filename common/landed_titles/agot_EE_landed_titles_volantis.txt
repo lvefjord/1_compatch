@@ -57,6 +57,9 @@ e_volantis = {
 				b_narys = { province = 8378 color = { 78 104 94 } } 
 				b_virelion = { province = 8379 color = { 71 94 100 } } 
 			}
+		}
+		d_little_valyria = {
+			color = { 78 48 60 }
 			c_little_valyria = {
 				color = { 78 48 60 } 
 				b_little_valyria = { province = 8380 color = { 78 48 60 } } 
@@ -73,29 +76,27 @@ e_volantis = {
 				b_embrysis = { province = 8391 color = { 73 45 65 } } 
 			}
 			c_zalmyzkes = { color = { 47 47 78 } 
+				b_zalmyzkes = { province = 8392 color = { 47 47 78 } } 
+				b_embamves = { province = 8393 color = { 53 51 75 } } 
+				b_tolmiryo = { province = 8394 color = { 58 55 70 } } 
+				b_naqa_egros = { province = 8395 color = { 63 58 67 } } 
 				b_eltyryen = { province = 8396 color = { 67 53 71 } } 
 				b_edruremio = { province = 8397 color = { 70 50 76 } } 
 				b_azantyria = { province = 8398 color = { 73 47 81 } } 
+				b_maegarys = { province = 8399 color = { 74 56 84 } } 
+			}
+			c_vasyugys = {
+				color = { 78 74 113 } 
+				b_vasyugys = { province = 8400 color = { 78 74 113 } } 
+				b_vhassos = { province = 8401 color = { 81 79 115 } } 
+				b_malqaerys = { province = 8402 color = { 76 83 108 } } 
+				b_jelmonegalry = { province = 8403 color = { 81 86 104 } } 
+				b_grevenkar = { province = 8404 color = { 84 82 98 } } 
 			}
 		}
-		d_selhorys = {
-			color = { 62 63 55 }
-			capital = c_selhorys
-			c_selhorys = {
-				color = { 62 63 55 }
-				b_selhorys = { province = 8424 color = { 62 63 55 } }
-				b_novagyrios = { province = 8425 color = { 65 61 60 } }
-				b_nyssos = { province = 8426 color = { 68 59 63 } }
-				b_dovalgaer = { province = 8427 color = { 70 56 65 } }
-				b_melarys = { province = 8428 color = { 67 60 69 } }
-				b_uluzys = { province = 8429 color = { 63 63 72 } }
-				b_menyryia = { province = 8430 color = { 67 61 69 } }
-				b_barzarios = { province = 8431 color = { 63 62 60 } }
-				b_tarendelys = { province = 8432 color = { 66 58 55 } }
-				b_kunelion = { province = 8433 color = { 68 59 52 } }
-				b_emporys = { province = 8434 color = { 70 56 57 } }
-				b_henkarion = { province = 8435 color = { 71 51 61 } }
-			}
+		d_sar_mell = {
+			color = { 74 78 51 }
+			capital = c_sar_mell
 			c_sar_mell = {
 				color = { 74 78 51 }
 				b_sar_mell = { province = 8405 color = { 74 78 51 } }
@@ -120,6 +121,25 @@ e_volantis = {
 				b_venneha = { province = 8421 color = { 85 89 62 } }
 				b_tomulbar = { province = 8422 color = { 83 92 64 } }
 				b_skara = { province = 8423 color = { 81 95 68 } }
+			}
+		}
+		d_selhorys = {
+			color = { 62 63 55 }
+			capital = c_selhorys
+			c_selhorys = {
+				color = { 62 63 55 }
+				b_selhorys = { province = 8424 color = { 62 63 55 } }
+				b_novagyrios = { province = 8425 color = { 65 61 60 } }
+				b_nyssos = { province = 8426 color = { 68 59 63 } }
+				b_dovalgaer = { province = 8427 color = { 70 56 65 } }
+				b_melarys = { province = 8428 color = { 67 60 69 } }
+				b_uluzys = { province = 8429 color = { 63 63 72 } }
+				b_menyryia = { province = 8430 color = { 67 61 69 } }
+				b_barzarios = { province = 8431 color = { 63 62 60 } }
+				b_tarendelys = { province = 8432 color = { 66 58 55 } }
+				b_kunelion = { province = 8433 color = { 68 59 52 } }
+				b_emporys = { province = 8434 color = { 70 56 57 } }
+				b_henkarion = { province = 8435 color = { 71 51 61 } }
 			}
 			c_selhoru = {
 				color = { 66 67 58 }
@@ -156,6 +176,10 @@ e_volantis = {
 				b_selhoru24 = { province = 8460 color = { 61 55 37 } }
 				b_selhoru25 = { province = 8461 color = { 62 57 38 } }
 			}
+		}
+		d_death_swamps = {
+			color = { 62 61 35 }	
+			capital = c_death_swamps
 			c_kestoryuna = {
 				color = { 62 61 35 }
 				b_selhoru31 = { province = 8467 color = { 62 61 35 } }
@@ -185,21 +209,6 @@ e_volantis = {
 				b_death_swamps10 = { province = 8483 color = { 63 78 46 } }
 				b_death_swamps11 = { province = 8484 color = { 64 78 47 } }
 			}
-			c_noksarys = {
-				color = { 65 78 47 }
-				b_death_swamps12 = { province = 8485 color = { 65 78 47 } }
-				b_death_swamps13 = { province = 8486 color = { 66 79 48 } }
-				b_death_swamps14 = { province = 8487 color = { 67 79 48 } }
-				b_death_swamps15 = { province = 8488 color = { 67 80 48 } }
-				b_death_swamps16 = { province = 8489 color = { 67 80 49 } }
-				b_death_swamps17 = { province = 8490 color = { 68 80 49 } }
-				b_death_swamps24 = { province = 8497 color = { 71 82 51 } }
-				b_death_swamps25 = { province = 8498 color = { 72 82 51 } }
-				b_death_swamps26 = { province = 8499 color = { 72 82 52 } }
-				b_death_swamps27 = { province = 8500 color = { 72 83 52 } }
-				b_death_swamps28 = { province = 8501 color = { 73 83 52 } }
-				b_death_swamps29 = { province = 8502 color = { 73 83 53 } }
-			}
 			c_arosenyr = {
 				color = { 69 80 49 }
 				b_death_swamps18 = { province = 8491 color = { 69 80 49 } }
@@ -212,6 +221,15 @@ e_volantis = {
 				b_death_swamps44 = { province = 8517 color = { 78 88 58 } }
 				b_death_swamps45 = { province = 8518 color = { 78 89 58 } }
 				b_death_swamps46 = { province = 8519 color = { 79 89 58 } }
+			}
+			c_nyturys = {
+				color = { 74 84 54 }
+				b_death_swamps32 = { province = 8505 color = { 74 84 54 } }
+				b_death_swamps31 = { province = 8504 color = { 74 84 53 } }
+				b_death_swamps33 = { province = 8506 color = { 74 85 54 } }
+				b_death_swamps34 = { province = 8507 color = { 75 85 54 } }
+				b_death_swamps35 = { province = 8508 color = { 75 85 55 } }
+				b_death_swamps36 = { province = 8509 color = { 75 86 55 } }
 			}
 			c_morghanion = {
 				color = { 81 92 61 }
@@ -231,19 +249,25 @@ e_volantis = {
 			c_altames = {
 				color = { 76 86 56 }
 				b_death_swamps38 = { province = 8511 color = { 76 86 56 } }
+				b_death_swamps30 = { province = 8503 color = { 73 84 53 } }
 				b_death_swamps39 = { province = 8512 color = { 76 87 56 } }
 				b_death_swamps40 = { province = 8513 color = { 77 87 56 } }
 				b_death_swamps41 = { province = 8514 color = { 77 87 57 } }
 			}
-			c_nyturys = {
-				color = { 74 84 54 }
-				b_death_swamps32 = { province = 8505 color = { 74 84 54 } }
-				b_death_swamps30 = { province = 8503 color = { 73 84 53 } }
-				b_death_swamps31 = { province = 8504 color = { 74 84 53 } }
-				b_death_swamps33 = { province = 8506 color = { 74 85 54 } }
-				b_death_swamps34 = { province = 8507 color = { 75 85 54 } }
-				b_death_swamps35 = { province = 8508 color = { 75 85 55 } }
-				b_death_swamps36 = { province = 8509 color = { 75 86 55 } }
+			c_noksarys = {
+				color = { 65 78 47 }
+				b_death_swamps12 = { province = 8485 color = { 65 78 47 } }
+				b_death_swamps13 = { province = 8486 color = { 66 79 48 } }
+				b_death_swamps14 = { province = 8487 color = { 67 79 48 } }
+				b_death_swamps15 = { province = 8488 color = { 67 80 48 } }
+				b_death_swamps16 = { province = 8489 color = { 67 80 49 } }
+				b_death_swamps17 = { province = 8490 color = { 68 80 49 } }
+				b_death_swamps24 = { province = 8497 color = { 71 82 51 } }
+				b_death_swamps25 = { province = 8498 color = { 72 82 51 } }
+				b_death_swamps26 = { province = 8499 color = { 72 82 52 } }
+				b_death_swamps27 = { province = 8500 color = { 72 83 52 } }
+				b_death_swamps28 = { province = 8501 color = { 73 83 52 } }
+				b_death_swamps29 = { province = 8502 color = { 73 83 53 } }
 			}
 		}
 		d_volaena = {
@@ -313,6 +337,10 @@ e_volantis = {
 				b_volaena46 = { province = 8576 color = { 60 70 60 } }
 				b_volaena47 = { province = 8577 color = { 60 70 61 } }
 			}
+		}
+		d_vysyria = {
+			color = { 73 64 56 }
+			capital = c_vysyria
 			c_vysyria = {
 				color = { 73 64 56 }
 				b_vysyria = { province = 8579 color = { 73 64 56 } }
@@ -336,7 +364,7 @@ e_volantis = {
 				b_vysyria14 = { province = 8593 color = { 54 53 51 } }
 			}
 			c_marzyskes = {
-				color = { 59 58 55 }
+				color = { 54 62 61 }
 				b_vysyria28 = { province = 8607 color = { 59 58 55 } }
 				b_vysyria16 = { province = 8595 color = { 55 54 51 } }
 				b_vysyria17 = { province = 8596 color = { 55 54 52 } }
@@ -535,7 +563,7 @@ e_volantis = {
 			}
 		}
 		d_valon_sar = {
-			color = { 69 71 73 }
+			color = { 57 59 61 }
 			capital = c_valon_sar
 			c_valon_sar = {
 				color = { 57 59 61 }
@@ -547,7 +575,6 @@ e_volantis = {
 				b_tonari = { province = 8308 color = { 71 79 89 } }
 				b_hylca = { province = 8309 color = { 49 53 58 } }
 				b_endva = { province = 8310 color = { 43 47 51 } }
-				b_ygokoyzsi = { province = 9354 color = { 77 70 93 } }
 			}
 			c_ar_pharos = {
 				color = { 85 62 85 }
@@ -577,6 +604,7 @@ e_volantis = {
 				b_tenasyris = { province = 8328 color = { 75 80 89 } }
 				b_syrelia = { province = 8329 color = { 73 86 86 } }
 				b_apparys = { province = 8330 color = { 77 89 83 } }
+				b_ygokoyzsi = { province = 9354 color = { 77 70 93 } }
 			}
 			c_hypyris = {
 				color = { 62 86 79 }
